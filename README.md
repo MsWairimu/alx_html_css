@@ -1,6 +1,5 @@
 # alx_html_css/html_advanced
-This project is a website template with HTML components. 
-It provides a structured layout for building a website with various sections such as a header, Banner Section, Videos Section, Quote Section, FAQ section, and a footer.
+This project provides a structured layout for building a website with various sections such as a header, Banner Section, Videos Section, Quote Section, FAQ section, and a footer.
 ## Features
 - Responsive layout
 - Header with a logo, navigation links, and a link block
