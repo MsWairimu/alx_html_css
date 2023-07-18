@@ -379,7 +379,7 @@
   /* Styles for the .row class inside .section-latest-news */
 }
 /* Section SERVICES ============================= */
-.section-service .row{
+.section-services .row{
     flex-wrap: wrap;
     /* Styles for the .row class inside .section-services*/
 }
