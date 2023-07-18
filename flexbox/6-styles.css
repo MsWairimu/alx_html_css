@@ -248,8 +248,8 @@ margin: 1rem;
     background-color: var(--color-primary);
     width: 100%;
   }
-  .nav-item + .nav-item{
-     width: 100%;
+  .nav .nav-item + .nav-item{
+    margin: var(--nav-item-margin);
   }
   /* Header
       ============================= */
