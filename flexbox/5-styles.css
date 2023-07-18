@@ -61,11 +61,6 @@
     --section-footer-align: center;
   
     /** HEADER **/
-         /* Styles for the header-container class */
-       .header-container {
-           display: flex;
-           justify-content: space-between;
-       }
     --header-padding: 4rem 0 0;
  
   
@@ -256,7 +251,11 @@ margin: 1rem;
   
   /* Header
       ============================= */
-  
+      /* Styles for the header-container class */
+       .header-container {
+           display: flex;
+           justify-content: space-between;
+       }
   .header {
     padding: var(--header-padding);
          position: relative;
