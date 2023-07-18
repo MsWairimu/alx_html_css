@@ -378,6 +378,11 @@
       flex-direction: row-reverse;
   /* Styles for the .row class inside .section-latest-news */
 }
+/* Section SERVICES ============================= */
+.section-service .row{
+    flex-wrap: wrap;
+    /* Styles for the .row class inside .section-services*/
+}
   /*** 4. CARD ***/
   /* Card (all styles)
       ============================= */
