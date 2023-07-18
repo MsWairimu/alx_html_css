@@ -185,7 +185,7 @@
       }
     
   ul.row {
-    margin: 1-rem;
+    margin: -1rem;
     display: flex;
     padding: 0;
     list-style: none;
