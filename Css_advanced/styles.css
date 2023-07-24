@@ -1,1 +1,446 @@
 
+body {
+  display:flex;
+  flex-direction: column;
+  margin: 0; /* Remove default margin to avoid spacing issues */
+  width: 100%;
+  height: 100%;
+}
+
+/*header section*/
+header{
+    background-image: url(images/object.png);
+    background-size: cover;
+    top: 35.02320098876976px;
+    left: 171.5922088623048px;
+    padding: 0px 0.00006103515625px 0px 0px;
+    height: 900px;
+
+    
+      }
+     
+    .container{
+      display: flex;
+    height: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    flex-shrink: 0;
+    color: #FFFF;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+
+    }
+    .link-block{
+      gap: 20px;
+      order: 1;
+      float: right;
+      
+    }
+    .link-block a{
+      width: 234px;
+      width: 1103.4078369140625px;
+      height: 29.46099090576172px;
+left: 1041px;
+padding: 20px;
+color: rgb(221, 216, 216);
+font-size: 20px;
+font-weight: 900;
+    }
+    .logo{
+    flex-shrink: 0;
+    justify-content: start;
+    padding-right: 750px;
+    color: #e2dede;
+    }
+    /*End of header section*/
+
+    /*Main section*/
+    main {
+      display:flex;
+   flex-direction: row;
+      height: auto;
+      width: auto;
+      justify-content: center; /* Center the content horizontally */
+      align-items: center; /* Center the content vertically */
+  }
+    /*Banner section*/
+    .banner {
+      max-width: 1000px; /* Changed max-inline-size to max-width */
+      width: 100%; /* Changed inline-size to width */
+      margin: 0 auto; /* Center horizontally using auto margins */
+      text-align: center; /* Center the text inside .banner-section */
+  }
+  
+  .block-1 {
+    white-space: nowrap;
+    font-size: 80px;
+    margin-top: 80px;
+    margin-bottom: 20px; /* Adjust this value to reduce the gap */
+    color: white;
+}
+
+.block-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element {
+    /* padding-bottom: 500px; Remove this line */
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+     .register-button{
+    border: none;
+    border-radius: 25px;
+    letter-spacing: .5px;
+    color: white;
+    block-size: 48px;
+    inline-size: 160px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: var(--font-weight-thin);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .btn-color {
+    background-color: #C271FF;
+  }
+  
+  .btn-shadow {
+    box-shadow: 3px 15px 30px rgba(0, 0, 0, 0.74);
+  }
+  .btn-color {
+    background-color: #C271FF;
+  }
+  .btn-shadow {
+    box-shadow: 3px 15px 30px rgba(0, 0, 0, 0.74);
+  }
+
+.block-3 {
+  margin-block-start: 65px;
+  margin-top: 130px; /* Adjust this value to move it lower */
+  text-align: center;
+  width: 500px;
+  height: 40px;
+  font-family: "Source Sans Pro"; /* Fixed the font-family property */
+  font-size: 32px;
+  font-weight: 500; /* Removed the duplicate font-weight property */
+  line-height: 40px;
+  letter-spacing: 0px;
+}
+
+  
+  .highlight {
+    color: #C271FF;
+  }
+  .container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }  
+  .card-image {
+    width: 150px;
+    height: 150px;
+  
+  }
+  
+  .img-details {
+    text-align: center;
+    color: white;
+  }
+  
+  .img-name {
+    margin: 5px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .img-prize,
+  .img-year{
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .round-image {
+    border-radius: 50%;
+}
+/*End of banner section*/
+
+/*Quote section*/
+
+.quote-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px; 
+ margin-left: 120px;
+ margin-top: 120px;
+ margin-bottom: 22px;
+ background-color: #C271FF;
+ font-family: var(--font-family-base);
+ color: #ffffff;
+ height: 392px;
+ font-weight: normal;
+ margin: 0 auto;
+}
+
+.quote-block img {
+  border-radius: 50%;
+  align-items: center; 
+  margin-left: 150px; 
+}
+
+/* Make the quote details take up the remaining space */
+.quote-details {
+  flex-grow: 1;
+  display:content;
+  flex: 1;
+  background-color: #C271FF;
+  width: 100%;
+  Width: 943px;
+justify-content: center;
+align-items: center;
+}
+
+/* Additional styling for the quote details */
+.quote-details blockquote {
+  font-size: 25px;
+  width: 943px;
+  margin-bottom: 10px;
+}
+.quote-details .authors-quote span {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+/*End of Quote Section*/
+
+/*Video Section*/
+
+.heading{
+  text-align: center;
+  color: black;
+}
+.video-block{
+  display: flex;
+  flex-direction: row; 
+}
+
+.video-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.video-item{
+  position:relative;
+  display: inline-block;
+}
+.video-block {
+  display: flex;
+flex-direction: row;}
+
+
+.back {
+  position: relative;
+}
+
+.back img {
+  position: absolute;
+    width: 80px; /* Change this to adjust the size of the small image */
+    height: 100px; /* Change this to adjust the size of the small image */
+    background-size: cover;
+    top: 40px; /* Adjust the top position to move the small image vertically */
+    left: 50px; /* Adjust the left position to move the small image horizontally */
+    z-index: 1;
+}
+/*End of video section*/
+
+/*Membership Section*/
+.membership-section {
+  text-align: center;
+  padding: 30px;
+  background-color: #071629;
+  height: 450px;
+  
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+color: #f2f2f2;
+}
+.block4-item {
+  display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+  flex-wrap: wrap;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.block4-item img {
+  border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.block4-item h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #f2f2f2;
+}
+
+.block4-item p {
+  font-size: 13px;
+  color: #fff;
+
+}
+.button {
+  display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #C271FF;
+
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+/*End Membership Section*/
+
+/*FAQ*/
+.H1 {
+  text-align: center;
+  font-weight: var(--font-family-title);
+}
+.faq-item {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.row-block {
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+/*Footer*/
+.footer {
+  position: relative;
+  block-size: 240px;
+  background-color: #071629;
+}
+
+.logo-container {
+  display: inline;
+  justify-content: space-between;
+}
+
+.logo-container img {
+  margin: 40px auto;
+}
+
+.social-icons {
+  display: inline;
+  float: right;
+  justify-content: space-between;
+
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.8rem;
+  margin: auto 30px;
+  justify-content: right;
+  margin-bottom: 100px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.copyright-text {
+  display: flex;
+  justify-content: center;
+  color: #FFFF;
+}
+
+.copyright-text p {
+  margin: 0;
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-thin);
+  line-height: 15px;
+  color: var(--white);
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}
+/*End Footer*/
+
+article {
+    flex: 2;
+    overflow-y: auto;
+        background-color: #f8f8f8;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      
+      article h2 {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      article p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      
+      article img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+aside {
+    flex: 1;
+    overflow-y: auto;
+}  
+  button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    color: #140a0a;
+  }
+  .quote-block {
+    background-color: #f8f8f8;
+    
+  }
+    
