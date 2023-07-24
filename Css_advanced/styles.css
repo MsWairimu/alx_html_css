@@ -14,9 +14,7 @@ header{
     top: 35.02320098876976px;
     left: 171.5922088623048px;
     padding: 0px 0.00006103515625px 0px 0px;
-    height: 900px;
-
-    
+    height: 900px;    
       }
      
     .container{
@@ -37,7 +35,6 @@ header{
       gap: 20px;
       order: 1;
       float: right;
-      
     }
     .link-block a{
       width: 234px;
@@ -133,8 +130,6 @@ font-weight: 900;
   line-height: 40px;
   letter-spacing: 0px;
 }
-
-  
   .highlight {
     color: #C271FF;
   }
@@ -142,8 +137,7 @@ font-weight: 900;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+  } 
   .img {
     display: flex;
     flex-direction: column;
@@ -155,7 +149,6 @@ font-weight: 900;
   .card-image {
     width: 150px;
     height: 150px;
-  
   }
   
   .img-details {
@@ -227,7 +220,46 @@ align-items: center;
   font-style: italic;
   margin-bottom: 5px;
 }
-
+article {
+    flex: 2;
+    overflow-y: auto;
+        background-color: #f8f8f8;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      
+      article h2 {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      article p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      
+      article img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+aside {
+    flex: 1;
+    overflow-y: auto;
+}  
+  button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    color: #140a0a;
+  }
+  .quote-block {
+    background-color: #f8f8f8;
+    
+  }
 /*End of Quote Section*/
 
 /*Video Section*/
@@ -403,44 +435,5 @@ a:visited {
 }
 /*End Footer*/
 
-article {
-    flex: 2;
-    overflow-y: auto;
-        background-color: #f8f8f8;
-        padding: 20px;
-        margin-bottom: 20px;
-      }
-      
-      article h2 {
-        font-size: 22px;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-      
-      article p {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 10px;
-      }
-      
-      article img {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-      }
-aside {
-    flex: 1;
-    overflow-y: auto;
-}  
-  button {
-    padding: 10px 20px;
-    background-color: #f2f2f2;
-    border: none;
-    cursor: pointer;
-    color: #140a0a;
-  }
-  .quote-block {
-    background-color: #f8f8f8;
-    
-  }
+
     
